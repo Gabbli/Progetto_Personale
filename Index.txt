@@ -1,0 +1,34 @@
+Struttura del Progetto
+
+1. Classe Contatto:
+
+Attributi: Nome, cognome, numero di telefono, email, ecc.
+
+Costruttore: Per inizializzare gli oggetti Contatto.
+
+Metodi: Getter e setter per accedere e modificare gli attributi.
+
+Override del metodo toString(): Per fornire una rappresentazione stringa dell'oggetto.
+
+
+2. Classe AddressBook:
+
+Attributo: Una lista (ArrayList, LinkedList) per contenere gli oggetti Contatto.
+
+Metodi:
+aggiungiContatto: Per aggiungere un nuovo contatto alla lista.
+
+eliminaContatto: Per rimuovere un contatto dalla lista.
+
+cercaContatto: Per cercare un contatto in base a un criterio (nome, cognome, numero di telefono).
+
+modificaContatto: Per modificare i dati di un contatto esistente.
+
+stampaContatti: Per visualizzare tutti i contatti della rubrica.
+
+
+3. Classe Main:
+
+Interfaccia utente: Puoi utilizzare un'interfaccia a linea di comando (console) per interagire con l'utente o creare una semplice interfaccia grafica con Swing o JavaFX.
+
+Menu principale: Per offrire all'utente le opzioni di aggiungere, eliminare, cercare e visualizzare i contatti.
